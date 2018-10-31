@@ -37,8 +37,8 @@ $(document).ready(function() {
           $("<a class='article-link' target='_blank' rel='noopener noreferrer'>")
             .attr("href", article.url)
             .text(article.headline),
-          $("<a class='btn btn-danger delete'>Delete From Saved</a>"),
-          $("<a class='btn btn-info notes'>Article Notes</a>")
+          $("<a class='btn btn-danger delete'>Delete</a>"),
+          $("<a class='btn btn-primary notes'>Article Notes</a>")
         )
       );
   
